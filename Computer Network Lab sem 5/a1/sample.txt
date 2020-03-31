@@ -1,0 +1,12 @@
+hey we are at cn lab
+execution of ist program:
+open terminal 
+
+netstat -tulnp
+gcc serverfile.c
+./a.out 631
+
+open another terminal:
+
+gcc clientfile.c
+./a.out 127.0.0.1
